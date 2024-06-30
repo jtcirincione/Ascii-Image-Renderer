@@ -15,7 +15,6 @@ services:
     ports:
       - 3001:3001
     volumes:
-      - /app/node_modules
       - ./server/src:/app/src
 
   proxy:
